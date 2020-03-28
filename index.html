@@ -11,18 +11,17 @@
  		<div class="tempusFugitTitle">Tempus Fugit ¿Cuántas semanas he vivido?</div>
  		<div class="tempusFugitActionContainer">
  			<div class="tempusFugitDescription">Introduce tu fecha de nacimiento y descubre cuantas semanas y días llevas en este plano existencial</div>
- 			<div class="tempusFugitQuestion"><p>Introduce tu fecha de nacimiento</p>
- 				<form action="/action_page.php"> /*hay que enlazar con JS no con php*/
-  					<label for="fName">¿Cómo te llamas?:</label>
-  					<input type="text" id="fName" name="fName"><br><br>
- 				    <label for="dBirth">Fecha de nacimiento:</label>
-  					<input type="date" id="dBirth" name="dBirth"><br><br>
-  					<input type="submit" value="Muero por saber el resultado">
+ 			<div class="tempusFugitQuestion">
+ 				<form name="tempusFugitData" action="#">
+ 					<h2>Introduce tu fecha de nacimiento</h2>
+  					<p>¿Cómo te llamas?: <input type="text" id="fName" name="fName"><br><br></p>
+ 				    <p>Fecha de nacimiento: <input type="date" id="dBirth" name="dBirth"><br><br></p>
+  					<p><input type="button" value="Muero por saber el resultado"></p>
 				</form>
 
 			</div>
 
- 			<div class="tempusFugitResult"></div>
+ 			<div id="tempusFugitResult"></div>
  		</div>
  		<footer class="tempusFugitFooter">Hecho con amor y algo de acojone por Caro Chan</footer>
  	</div>
