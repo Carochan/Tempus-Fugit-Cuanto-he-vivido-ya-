@@ -3,10 +3,29 @@
  <html>
  <head>
  	<meta charset="utf-8">
- 	<title>¿Cuántas semanas he vivido?</title>
+ 	<title>Tempus fugit</title>
  	<link rel="stylesheet" type="text/css" href="style.css">
  </head>
  <body>
+ 	<div class="tempusFugitContainer">
+ 		<div class="tempusFugitTitle">Tempus Fugit ¿Cuántas semanas he vivido?</div>
+ 		<div class="tempusFugitActionContainer">
+ 			<div class="tempusFugitDescription">Introduce tu fecha de nacimiento y descubre cuantas semanas y días llevas en este plano existencial</div>
+ 			<div class="tempusFugitQuestion"><p>Introduce tu fecha de nacimiento</p>
+ 				<form action="/action_page.php"> /*hay que enlazar con JS no con php*/
+  					<label for="fName">¿Cómo te llamas?:</label>
+  					<input type="text" id="fName" name="fName"><br><br>
+ 				    <label for="dBirth">Fecha de nacimiento:</label>
+  					<input type="date" id="dBirth" name="dBirth"><br><br>
+  					<input type="submit" value="Muero por saber el resultado">
+				</form>
+
+			</div>
+
+ 			<div class="tempusFugitResult"></div>
+ 		</div>
+ 		<footer class="tempusFugitFooter">Hecho con amor y algo de acojone por Caro Chan</footer>
+ 	</div>
  	<script type="text/javascript" src="script.js"></script>
  </body>
  </html>
