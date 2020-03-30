@@ -4,26 +4,36 @@
  <head>
  	<meta charset="utf-8">
  	<title>Tempus fugit</title>
+ 	<link rel="stylesheet" type="text/css" href="normalize.css">
  	<link rel="stylesheet" type="text/css" href="style.css">
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+ 	<link href="https://fonts.googleapis.com/css?family=Amaranth|Roboto&display=swap" rel="stylesheet">
  </head>
  <body>
- 	<div class="tempusFugitContainer">
- 		<div class="tempusFugitTitle">Tempus Fugit ¿Cuántas semanas he vivido?</div>
- 		<div class="tempusFugitActionContainer">
- 			<div class="tempusFugitDescription">Introduce tu fecha de nacimiento y descubre cuantas semanas y días llevas en este plano existencial</div>
- 			<div class="tempusFugitQuestion">
- 				<form name="tempusFugitData" action="#">
- 					<h2>Introduce tu fecha de nacimiento</h2>
+ 	<div class="tf-container">
+ 		 <div class="canvas">
+           <div class="header content-container centered">
+           <div class="size-h1 proyect-name content-element">Tempus Fugit</div>
+           <div class="content-container information-link">
+           <div class="content-element"><a href="https://carochan.com/about/">Sobre mí</a></div>
+           <div class="content-element"><a href="https://carochan.com/contact/">Contacto</a></div>
+       </div>
+        </div>
+ 		<div class>
+ 			<div><h2>Introduce tu fecha de nacimiento y descubre cuantas semanas y días llevas en este plano existencial</h2></div>
+ 			<div>
+ 				<form name="tf-data" action="#">
+ 					<h3>Introduce tu fecha de nacimiento</h3>
   					<p>¿Cómo te llamas?: <input type="text" id="fName" name="fName"><br><br></p>
  				    <p>Fecha de nacimiento: <input type="date" id="dBirth" name="dBirth"><br><br></p>
   					<p><input type="button" value="Muero por saber el resultado"></p>
 				</form>
 
-			</div>
+		    </div>
 
- 			<div id="tempusFugitResult"></div>
+ 			<div id="tf-result"></div>
  		</div>
- 		<footer class="tempusFugitFooter">Hecho con amor y algo de acojone por Caro Chan</footer>
+ 		<footer class="tf-footer"><p>Hecho con amor y algo de acojone por Caro Chan</p></footer>
  	</div>
  	<script type="text/javascript" src="script.js"></script>
  </body>
