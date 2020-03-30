@@ -71,10 +71,10 @@ ul li {
 }
 a:link {
   text-decoration: none;
-  color: #B986C7;
+  color: #f6cecb;
 }
 a:visited {
-  color: grey;
+  color: #f6cecb;
 }
 a:hover {
   color: lavender;
@@ -84,14 +84,14 @@ a:hover {
 /*Styling the header*/
 
 .header {
-  background-color: #f6cecb;
+  background-color: #B986C7;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: baseline;
 }
 .header .size-h1 {
-  font-family: 'Amaranth';
+  font-family: 'Mali';
 
 }
 @media (min-width: 40.75em) {
@@ -102,6 +102,7 @@ a:hover {
 .proyect-name {
   color: white;
   margin-right: 0.5rem;
+  text-transform: uppercase;
 }
 .information-link {
   display: flex;
