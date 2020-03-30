@@ -113,3 +113,19 @@ a:hover {
 .information-link>div:first-child {
   margin-right: 1rem;
 }
+
+/*Styling main division*/
+
+.main-division {
+  max-width: 30rem;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+.main-division1, .form-division {
+  padding: 0.5rem;
+}
+
+.form-division {
+  border: 4px solid lavender;
+}
