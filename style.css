@@ -24,6 +24,7 @@ html {
 body {
   background: white;
   line-height: 1.5;
+  color: #323232;
 }
 .canvas {
   max-width: 1599px;
@@ -74,7 +75,7 @@ a:link {
   color: lavender;
 }
 a:visited {
-  color: #f6cecb;
+  color: lavender;
 }
 a:hover {
   color: mediumpurple;
@@ -109,6 +110,7 @@ a:hover {
   align-items: baseline;
   font-family: 'Mali', sans-serif;
   margin-right: 0.5rem;
+  text-shadow: 2px 2px mediumpurple;
 }
 .information-link>div:first-child {
   margin-right: 1rem;
@@ -146,5 +148,6 @@ a:hover {
  display: flex;
  flex-wrap: wrap;
  justify-content: space-around;
- color: purple;
+ color: mediumpurple;
+ text-shadow: 2px 2px purple;
 }
