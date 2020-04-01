@@ -128,6 +128,7 @@ a:hover {
 
 .form-division {
   border: 4px solid lavender;
+  border-radius: 10px 10px;
 }
 
 /*Styling the image*/
