@@ -8,7 +8,7 @@
 
 html {
   font-size: 1em;
-  font-family: 'Roboto', sans-serif
+  font-family: 'Ubuntu Mono', sans-serif
 }
 @media (min-width: 25em) { /* 400px */
   html {
@@ -71,13 +71,13 @@ ul li {
 }
 a:link {
   text-decoration: none;
-  color: #f6cecb;
+  color: lavender;
 }
 a:visited {
   color: #f6cecb;
 }
 a:hover {
-  color: lavender;
+  color: mediumpurple;
 }
 
 
@@ -107,7 +107,7 @@ a:hover {
 .information-link {
   display: flex;
   align-items: baseline;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Mali', sans-serif;
   margin-right: 0.5rem;
 }
 .information-link>div:first-child {
@@ -140,6 +140,8 @@ a:hover {
 /*Styling footer*/
 
 .tf-footer {
+ font-family: "Mali";
+ text-align: center;
  background-color: lavender;
  display: flex;
  flex-wrap: wrap;
