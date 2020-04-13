@@ -72,24 +72,25 @@ ul li {
 }
 a:link {
   text-decoration: none;
-  color: lavender;
+  color: mediumpurple;
 }
 a:visited {
-  color: lavender;
+  color: mediumpurple;
 }
 a:hover {
-  color: mediumpurple;
+  color: purple;
 }
 
 
 /*Styling the header*/
 
 .header {
-  background-color: #B986C7;
+  background-color: white;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: baseline;
+  box-shadow: 2px 2px 8px lightgray;
 }
 .header .size-h1 {
   font-family: 'Mali';
@@ -101,16 +102,16 @@ a:hover {
   }
 }
 .proyect-name {
-  color: white;
+  color: #B986C7;
   margin-right: 0.5rem;
   text-transform: uppercase;
+
 }
 .information-link {
   display: flex;
   align-items: baseline;
   font-family: 'Mali', sans-serif;
   margin-right: 0.5rem;
-  text-shadow: 2px 2px mediumpurple;
 }
 .information-link>div:first-child {
   margin-right: 1rem;
@@ -130,13 +131,16 @@ a:hover {
 
 .form-division {
   border: 4px solid lavender;
-  border-radius: 10px 10px;
+  box-shadow:6px 5px 11px -1px #AAAAAA;
+  border-radius: 50px 50px 5px 50px;
+  margin: 1rem;
 }
 
 /*Styling the image*/
 
 .tf-image {
   text-align: center;
+  margin-top: 2rem;
 }
 
 /*Styling footer*/
@@ -144,10 +148,9 @@ a:hover {
 .tf-footer {
  font-family: "Mali";
  text-align: center;
- background-color: lavender;
  display: flex;
  flex-wrap: wrap;
  justify-content: space-around;
- color: mediumpurple;
- text-shadow: 2px 2px purple;
+ color: #B986C7;
+
 }
