@@ -1,42 +1,53 @@
-
-
-
- <!DOCTYPE html>
- <html>
- <head>
-  <meta charset="utf-8">
-  <title>Tempus fugit</title>
-  <link rel="stylesheet" type="text/css" href="normalize.css">
-  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
- </head>
- <body>
-  <div class="">
-     <div class="mx-auto w-screen">
-           <div class="flex flex-col bg-white text-center shadow-lg md:flex-shrink-0 sm:flex-row sm:items-stretch sm:text-justify grid-cols-3">
-             <div class="flex-grow mx-auto md:flex-shrink-0 p-2"><img src="https://carochan.com/wp-content/uploads/2020/04/TFlogo1.4.png"></div>
-             <div></div>
-             <div class="font-sans flex text-2xl  mx-auto md:flex-shrink-0 p-2">
-               <div class="p-4 text-sm text-purple-700 self-end"><a href="https://carochan.com/about/">SOBRE MÍ</a></div>
-               <div class="p-4 text-sm text-purple-700 self-end"><a href="https://carochan.com/contact/">CONTACTO</a></div>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tempus fugit</title>
+    <link rel="stylesheet" type="text/css" href="normalize.css">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="">
+    <div class="mx-auto w-screen">
+        <div class="flex flex-col bg-white text-center shadow-lg md:flex-shrink-0 sm:flex-row sm:items-stretch sm:text-justify grid-cols-3">
+            <div class="flex-grow mx-auto md:flex-shrink-0 p-2"><img
+                    src="https://carochan.com/wp-content/uploads/2020/04/TFlogo1.4.png"></div>
+            <div></div>
+            <div class="font-sans flex text-2xl  mx-auto md:flex-shrink-0 p-2">
+                <div class="p-4 text-sm text-purple-700 self-end"><a href="https://carochan.com/about/">SOBRE MÍ</a>
+                </div>
+                <div class="p-4 text-sm text-purple-700 self-end"><a href="https://carochan.com/contact/">CONTACTO</a>
+                </div>
             </div>
-         </div>
-    <div class="container mx-auto flex flex-col items-center p-4 max-w-screen-sm  md:flex-shrink-0" >
-      <div class="m-4 bg-white text-2xl text-center grid-cols-3 border-orange-500 border-solid border-4 rounded-t-lg sm: w-full"><h4>¿Quieres saber cuántos días llevas en este plano existencial?</h4><div class="text-center mx-auto w-6 m-2"><img src="https://carochan.com/wp-content/uploads/2020/04/down-arrow.png"></div></div>
-      <div class=" rounded-l-lg rounded-t-lg p-4 shadow-lg m-4">
-        <form name="tf-data" action="#" class="bg-white mx-auto flex flex-col items-center p-2 md:flex-shrink-0">
-            <p class="p-2 text-center">¿Cómo te llamas?: <input type="text" id="fName" name="fName" class="bg-gray-200 focus:bg-white border-transparent focus:border-purple-400 rounded-md mx-2 p-1" placeholder="Mi nombre es..."><br><br></p>
-            <p class="p-2 text-center">Fecha de nacimiento: <input type="date" id="dBirth" name="dBirth" class="bg-gray-200 focus:bg-white border-transparent focus:border-purple-400 rounded-md mx-2 p-1" placeholder="Dia-Mes-Año"><br><br></p>
-            <p><input type="button" onclick="calculateAndShowDaysOfLife()"value="Muero por saber el resultado" class="bg-purple-400 p-2 rounded-md hover:bg-purple-700 hover:text-white"></p>
-        </form>
-
         </div>
+        <div class="container mx-auto flex flex-col items-center p-4 max-w-screen-sm  md:flex-shrink-0">
+            <div class="m-4 bg-white text-2xl text-center grid-cols-3 border-orange-500 border-solid border-4 rounded-t-lg sm: w-full">
+                <h4>¿Quieres saber cuántos días llevas en este plano existencial?</h4>
+                <div class="text-center mx-auto w-6 m-2"><img
+                        src="https://carochan.com/wp-content/uploads/2020/04/down-arrow.png"></div>
+            </div>
+            <div class=" rounded-l-lg rounded-t-lg p-4 shadow-lg m-4">
+                <form name="tf-data" action="#"
+                      class="bg-white mx-auto flex flex-col items-center p-2 md:flex-shrink-0">
+                    <p class="p-2 text-center">¿Cómo te llamas?: <input type="text" id="fName" name="fName"
+                                                                        class="bg-gray-200 focus:bg-white border-transparent focus:border-purple-400 rounded-md mx-2 p-1"
+                                                                        placeholder="Mi nombre es..."><br><br></p>
+                    <p class="p-2 text-center">Fecha de nacimiento: <input type="date" id="dBirth" name="dBirth"
+                                                                           class="bg-gray-200 focus:bg-white border-transparent focus:border-purple-400 rounded-md mx-2 p-1"
+                                                                           placeholder="Dia-Mes-Año"><br><br></p>
+                    <p><input type="button" onclick="calculateAndShowDaysOfLife()" value="Muero por saber el resultado"
+                              class="bg-purple-400 p-2 rounded-md hover:bg-purple-700 hover:text-white"></p>
+                </form>
 
-      <div id="tf-result" class=""></div>
-      <div class="tf-image"><img src="https://carochan.com/wp-content/uploads/2020/03/TFGIRLWeb.png"></div>
+            </div>
+
+            <div id="tf-result" class=""></div>
+            <div class="tf-image"><img src="https://carochan.com/wp-content/uploads/2020/03/TFGIRLWeb.png"></div>
+        </div>
+        <footer class="text-center -m-4 p-2 text-purple-700 bg-gray-200"><p>Hecho con &hearts; y algo de acojone por
+            Caro Chan</p></footer>
     </div>
-    <footer class="text-center -m-4 p-2 text-purple-700 bg-gray-200"><p>Hecho con &hearts; y algo de acojone por Caro Chan</p></footer>
-  </div>
-  <script type="text/javascript" src="script.js"></script>
- </body>
- </html>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
