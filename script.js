@@ -12,6 +12,6 @@ end = new Date();
 
 let result= (nombre +' has vivido ' + (Math.floor((end.getTime() - start.getTime())/86400000)) + ' dias.');
 
-document.getElementById("tf-result").innerHTML= '<div class="border-purple-200 border-solid border-4 text-purple rounded-t-lg p-4">' + result + '</div>'
+document.getElementById("tf-result").innerHTML= '<div class="border-orange-500 border-solid border-4 text-purple rounded-b-lg p-4">' + result + '</div>'
 
 }
