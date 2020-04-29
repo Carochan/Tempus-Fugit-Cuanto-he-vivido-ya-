@@ -10,8 +10,8 @@ for (var i = 0; i < 1000; i++) {
 }
 end = new Date();
 
-let result= (nombre +' has vivido ' + (Math.floor((end.getTime() - start.getTime())/86400000)) + ' dias.');
+let result= ('¡' + nombre +' has vivido la friolera de ' + (Math.floor((end.getTime() - start.getTime())/86400000)) + ' dias!');
 
-document.getElementById("tf-result").innerHTML= '<div class="border-orange-500 border-solid border-4 text-purple rounded-b-lg p-4">' + result + '</div>'
+document.getElementById("tf-result").innerHTML= '<div class="bg-orange-500 text-center text-white  p-4">' + result + '</div>'
 
 }
