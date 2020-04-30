@@ -1,15 +1,15 @@
 function calculateAndShowDaysOfLife(){
-let nombre = document.getElementById('fName').value;
-let dateOfBirth = document.getElementById('dBirth').valueAsDate;
+const name = document.getElementById('fName').value;
+const dateOfBirth = document.getElementById('dBirth').valueAsDate;
+const millisecondsPerDay = 86400000;
 
-var end, start;
 
-start = new Date(dateOfBirth);
-end = new Date();
+const start = new Date(dateOfBirth);
+const end = new Date();
+const daysOfDifference = Math.floor((end.getTime() - start.getTime())/millisecondsPerDay);
 
-/*let result= ('¡' + nombre +' has vivido la friolera de ' + (Math.floor((end.getTime() - start.getTime())/86400000)) + ' dias!');*/
 
-let result= `¡${nombre} has vivido la friolera de ${Math.floor((end.getTime() - start.getTime())/86400000)} dias!`
+const result= `¡${name} has vivido la friolera de ${daysOfDifference} dias!`
 
 
 
